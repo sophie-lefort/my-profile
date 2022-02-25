@@ -1,0 +1,109 @@
+/*Colors and fonts*/
+body{
+  background: #D6D1B1;
+  color: black;
+  font-family: helvetica;
+  font-size: 16px;
+}
+
+
+h1{
+  font-family: lora;
+  color: #164f76;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: montserrat;
+  color: #8b0d0d ;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #164f76;
+}
+
+a:hover{
+  color: white;
+}
+
+
+/*Custom design with class*/
+.maincontainer {
+  width: 750px;
+  margin: 20px auto;
+}
+
+@media (max-width: 900px) {
+  .maincontainer{
+    width: 750;
+   }
+}
+@media (max-width: 730px) {
+  .maincontainer{
+    width: 550;
+  }
+}
+@media (max-width: 500px) {
+  .maincontainer{
+    width: 350;
+  }
+}
+
+.box-white {
+  background: whitesmoke;
+  margin: 40px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(30,30,30,.1);
+  border-radius: 6px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-white {
+  background-color: whitesmoke;
+  color: #164f76;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.btn-white:hover{
+  background-color: lightgrey;
+  color: #164f76
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: Opx;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 35px;
+  color: rgb(40, 40, 40);
+}
+
+.list-inline i:hover {
+  color: rgb(180, 180, 180);
+}
+
+.text-justify {
+  text-align: justify;
+  text-align: center;
+}
+
+/*Design adjustment using ID*/
+
+#topline p {
+  margin-bottom: 40px;
+}
